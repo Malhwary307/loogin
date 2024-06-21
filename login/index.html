@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+  <form id="loginForm">
+    <div class="container mx-auto my-5 text-center">
+      <div class="group m-auto w-75 p-5 shadow-lg">
+        <h1 class="text-info mb-4">Smart Login System</h1>
+        <input class="form-control mb-4" type="text" id="signEmail" placeholder="Enter your Email">
+        <input class="form-control mb-4" type="password" id="signPassword" autocomplete="on" placeholder="Enter your password">
+        <div class="alert alert-danger d-none" id="alertLogin">incorrect Email or Password</div>
+         <button  class="btn btn-outline-info w-100">Login</button>
+        <p class="text-white mt-3 " > Don't have an account ? <a class="text-white text-decoration-none"  href="../sign up/index.html"> Sign Up</a></p>
+      </div>
+    </div>
+  </form>
+   
+
+      
+  
+
+    <script src="./script/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script/main.js"></script>
+  </body>
+</html>
