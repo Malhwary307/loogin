@@ -26,7 +26,7 @@ function login(){
   if(isLoginValid(userData)==true){
     
     alertLogin.classList.replace('d-block','d-none')
-    setTimeout(function(){window.location.href="../../welcome/index.html"},2000);
+    setTimeout(function(){window.location.href="../welcome/index.html"},2000);
   }
   else {
     alertLogin.classList.replace('d-none','d-block')

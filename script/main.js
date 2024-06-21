@@ -40,7 +40,8 @@ function addUser(){
   }else{
     existAlert.classList.replace('d-block','d-none');
     successAlert.classList.replace('d-none','d-block');
-    setTimeout(function(){window.location.href="../../login/index.html"},2500);
+    
+     setTimeout(function(){window.location.href = "./login/index.html"},2500);
     
 allUsers.push(newUser);
 console.log(allUsers)
